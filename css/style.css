@@ -1,0 +1,191 @@
+/* improt font  */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+
+:root{
+    --primary:#FF6600;
+    --heading-text:#0B1B35;
+    --secend:#000000;
+    --drak-light:#8A898E;
+    --light:#ffffff;
+
+}
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Arimo', sans-serif;
+}
+.container{
+    max-width: 1170px;
+}
+.btn{
+    font-size: 18px;
+    text-decoration: none;
+    background: var(--primary);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: var(--light);
+}
+.flex{
+display: flex;
+align-items: center;
+}
+
+
+
+/* header area css  */
+.header-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* top header area css  */
+
+.top-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+.brand img{
+    width: 240px;
+    height: 49px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+}
+.navigation li{
+    list-style: none;
+    margin-right: 40px;
+}
+.navigation li a{
+    font-size: 18px;
+    color: var(--secend);
+    text-decoration: none;
+}
+.logni-button .login{
+    margin-right: 22px;
+    font-size: 18px;
+    color: var(--secend);
+    text-decoration: none;
+}
+
+/* dou header area css */
+
+/* header tex area css */
+.doun-header{
+    margin-top: 26px;
+}
+.header-text{
+    max-width: 50%;
+}
+.header-text h1{
+    font-size: 60px;
+    font-weight: 850;
+    line-height: 60px;
+    color: var(--heading-text);
+}
+.header-text p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 80%;
+    color: var(--secend);
+    margin-top: 16px;
+    margin-bottom: 61px;
+}
+.learn-more img{
+    width: 50px;
+    height: 60px;
+    margin-left: 28px;
+    margin-right: 25px;
+}
+.learn-more span{
+    font-size: 18px;
+    color: var(--secend);
+}
+
+/* header image css */
+
+.header-image{
+    max-width: 50%;
+    position: relative;
+}
+.header-image .mane{
+    width: 606px;
+    height: 618px;
+}
+.header-image .shape {
+    width: 552px;
+    height: 294px;
+    z-index: -1;
+    position: absolute;
+    top: 65px;
+    right: 54px;
+}
+.busi-gro{
+    position: absolute;
+    top: 35px;
+    left: -23px;
+    z-index: -1;
+    width: 257px;
+    height: 73px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.busi-gro img{
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+}
+.activity h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+}
+.reviews{
+    margin-top: 10px;
+}
+.reviews img{
+    width: 14px;
+    height: 13px;
+    margin-right: 5px;
+}
+.reviews .rating{
+    font-size: 12px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.review{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--drak-light);
+}
+
+.happy-clint{
+    position: absolute;
+    left: -105px;
+    bottom: 220px;
+    width: 217px;
+    height: 73px;
+    border-radius: 12px;
+    padding: 15px 40px 15px 15px;
+    z-index: -1;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.happy-clint h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--secend);
+}
+
