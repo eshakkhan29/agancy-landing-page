@@ -23,7 +23,8 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     max-width: 1170px;
@@ -260,6 +261,140 @@ align-items: center;
     justify-content: center;
 }
 
+/* clients section css */
+
+.clients-section{
+    margin-top: 146px;
+}
+.clients{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.client{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.client img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.client-say p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 13px;
+}
+.client-say span{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: bold;
+    color: var(--drak-light);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* team member section css */
+.team-section{
+    margin-top: 142px;
+}
+.team-members{
+    margin-top: 53px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.member{
+    padding-top: 50px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+}
+.member-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member-info img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 28px;
+}
+.member-info h3{
+    font-size: 22px;
+    color: #1E0E62;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.member-info span{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: bold;
+    color: var(--drak-light);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.sosial-links{
+    display: flex;
+    justify-content: space-between;
+}
+.sosial-links a{
+    text-decoration: none;
+    padding: 18px 49px;
+    border-top: 2px solid #EBEAED;
+    border-right: 2px solid #EBEAED;
+}
+.sosial-links a:last-child{
+    border-right: 0px;
+}
+.sosial-links a img{
+    width: 21px;
+}
+
+/* subscrive area css */
+.subscrive-section{
+    margin-top: 110px;
+}
+.sub-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.mail-icon{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.mail-icon img{
+    width: 65%;
+    
+}
+.input-info{
+    width: 60%;
+}
+.input-info p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 55px;
+}
+.input-info input{
+    font-size: 24px;
+    line-height: 28px;
+    padding: 24px 342px 24px 67px;
+    border: none;
+    border-radius: 49px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.sub-btn{
+    margin-top: 51px;
+    display: block;
+    text-align: center;
+}
 
 /* responsive css mobile devise */
 
