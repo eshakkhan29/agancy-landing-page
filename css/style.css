@@ -386,7 +386,9 @@ align-items: center;
     font-size: 24px;
     line-height: 28px;
     padding: 24px 342px 24px 67px;
+    outline: none;
     border: none;
+    border-top: 2px solid #EBEAED;
     border-radius: 49px;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
@@ -394,6 +396,43 @@ align-items: center;
     margin-top: 51px;
     display: block;
     text-align: center;
+}
+
+/* footer area css  */
+
+.footer-area{
+    margin-top: 166px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-logo img{
+    width: 111px;
+    height: 23px;
+}
+.top-footer p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E0E62;
+}
+hr{
+    border: 2px solid #EBEAED;
+    margin-top: 31px;
+    border-radius: 5px;
+}
+.footer-span{
+    display: block;
+    margin: 40px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #15143966;
 }
 
 /* responsive css mobile devise */
