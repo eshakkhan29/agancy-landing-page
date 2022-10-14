@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,17 @@
 
     <!-- css style sheet link  -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
 
-<!-- header area -->
+    <!-- header area -->
 
     <header class="header-area">
-             <!-- Top header  -->
+        <!-- Top header  -->
 
+        <div class="navbar">
             <nav class="top-header container">
 
                 <!-- logo -->
@@ -27,25 +31,29 @@
                 <!-- navigation -->
 
                 <div class="navigation">
-                    <ul>
+                    <ul id="menuList" class="navlistMain">
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
                         <li><a href="">Our App</a></li>
-                        <li><a href="">Contact</a></li> 
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </div>
 
                 <!-- login signup button  -->
 
-                <div class="logni-button">
+                <div class="login-button">
                     <a class="login" href="">Log in</a>
                     <a class="btn" href="">Sign up</a>
                 </div>
+                <div>
+                </div>
             </nav>
+            <span id="toggle-icon" class="menu-button">|||</span>
+        </div>
 
-            <!-- doun header area  -->
+        <!-- doun header area  -->
 
-            <div class="doun-header container flex">
+        <div class="doun-header container">
                 <div class="header-text">
                     <h1>We boost <br> growth for your <br> statup business</h1>
                     <p>Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
@@ -232,7 +240,7 @@
                     <img src="images/logo/Logo.png" alt="">
                 </div>
                 <p>© 2022 Eshak Khan. All rights reserved.</p>
-                <div class="navigation">
+                <div class="navigation-footer">
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
@@ -245,5 +253,7 @@
             <span class="footer-span">Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</span>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
+
 </html>

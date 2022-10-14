@@ -1,0 +1,187 @@
+@media screen and (max-width: 450px) {
+    .top-header {
+        padding: 20px 10px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .brand img {
+        width: 100px;
+        height: 20px;
+    }
+
+    .navigation li {
+        margin-right: 0px;
+    }
+
+    .navlistMain {
+        width: 118px;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: -200px;
+        left: 220px;
+        gap: 10px;
+        transition: all .4s ease;
+        background-color: #fb6908;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+
+    .navlist {
+        top: 0px;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .doun-header {
+        flex-direction: column;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .header-text p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        max-width: 90%;
+        margin: 20px;
+    }
+
+    .button-icon {
+        padding: 0px 20px;
+    }
+
+
+
+
+
+
+
+    .header-image {
+        padding: 20px;
+    }
+
+    .header-image .shape {
+        padding: 20px;
+    }
+
+    .busi-gro {
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        width: 257px;
+        height: 73px;
+        padding: 15px;
+
+    }
+
+    .happy-clint {
+        position: absolute;
+        left: 150px;
+        bottom: -150px;
+        width: 217px;
+        height: 73px;
+        border-radius: 12px;
+        padding: 15px 40px 15px 15px;
+    }
+
+
+
+
+    .service-section {
+        margin-top: 200px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .services {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
+
+
+
+
+    .clients {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    .team-members {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .sub-info {
+        margin-top: 50px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .mail-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-info {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .input-info p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .input-info input {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 17px 25px;
+    }
+
+    .sub-btn {
+        margin-top: 25px;
+    }
+
+
+    .top-footer {
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+
+    .navigation-footer li {
+        margin-right: 20px;
+    }
+
+    .footer-span {
+        display: block;
+        margin: 30px 0px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #15143966;
+    }
+
+}
